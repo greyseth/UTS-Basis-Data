@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4EA09EB7-6C83-E85D-19C1-C647C35EF0BF" name="Author">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:56:45 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="author_email" id="9FC7AD01-97F5-A2EC-58C9-8E4BBDF97A4B">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:56:51 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="DD531203-E83C-E7FA-8B50-FD29B64D1B1B">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:57:44 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="9B811E82-A522-72D4-B079-85FF846199D4">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:57:57 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7ABED258-0CBF-D7EB-6C42-427D02B3B6B7" name="Author PK">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:57:31 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9FC7AD01-97F5-A2EC-58C9-8E4BBDF97A4B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

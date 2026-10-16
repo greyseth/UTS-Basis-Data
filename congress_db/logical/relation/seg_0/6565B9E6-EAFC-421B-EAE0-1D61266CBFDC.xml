@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="state_congress_fk" directorySegmentName="seg_0" id="6565B9E6-EAFC-421B-EAE0-1D61266CBFDC">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:40:29 UTC</createdTime>
+<ownerDesignName>congress_db</ownerDesignName>
+<engineerTo>
+<item key="BD5DF4A7-8351-68DC-F109-E363914DDD87" value="true"/>
+</engineerTo>
+<sourcePk>07CC66EA-444B-7241-A1AD-4BCD9BC8211A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CB0E78D1-02B0-6C06-8BC0-FC6DE01D8751</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>712F4BDA-FFF5-F3D8-D48A-493D283CF568</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

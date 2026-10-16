@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="712F4BDA-FFF5-F3D8-D48A-493D283CF568" name="Congress Person">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:28:29 UTC</createdTime>
+<ownerDesignName>congress_db</ownerDesignName>
+<engineerTo>
+<item key="BD5DF4A7-8351-68DC-F109-E363914DDD87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_congress" id="1C0BBFC9-E039-6B0D-8A9F-3B8B03F7089B">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:28:44 UTC</createdTime>
+<ownerDesignName>congress_db</ownerDesignName>
+<engineerTo>
+<item key="BD5DF4A7-8351-68DC-F109-E363914DDD87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="A33C1BFA-F4D3-1BA4-73E4-0615F20A05CF">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:28:54 UTC</createdTime>
+<ownerDesignName>congress_db</ownerDesignName>
+<engineerTo>
+<item key="BD5DF4A7-8351-68DC-F109-E363914DDD87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start_date" id="FF172CF4-2227-8E38-C31E-ADA9393F6392">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:29:43 UTC</createdTime>
+<ownerDesignName>congress_db</ownerDesignName>
+<engineerTo>
+<item key="BD5DF4A7-8351-68DC-F109-E363914DDD87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_state" id="348977F5-F12F-87DE-CE52-2D8932EBE398">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:40:29 UTC</createdTime>
+<generatorID>6565B9E6-EAFC-421B-EAE0-1D61266CBFDC</generatorID>
+<ownerDesignName>congress_db</ownerDesignName>
+<engineerTo>
+<item key="BD5DF4A7-8351-68DC-F109-E363914DDD87" value="true"/>
+</engineerTo>
+<referedAttribute>75733B76-C543-CD02-B170-E94FCF3D9BE7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="637EBA4B-923A-01BC-7B58-53C35BBD1CEB" name="Congress Person PK">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:28:53 UTC</createdTime>
+<ownerDesignName>congress_db</ownerDesignName>
+<engineerTo>
+<item key="BD5DF4A7-8351-68DC-F109-E363914DDD87" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1C0BBFC9-E039-6B0D-8A9F-3B8B03F7089B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

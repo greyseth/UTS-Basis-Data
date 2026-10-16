@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="conference_review_db" id="4ED6758C-F3BA-6591-DD47-1139BCB480A5" version="3.5">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:54:18 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4ED6758C-F3BA-6591-DD47-1139BCB480A5</designId>
+</OSDM_Design>

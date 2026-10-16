@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB0E78D1-02B0-6C06-8BC0-FC6DE01D8751" name="State">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:26:03 UTC</createdTime>
+<ownerDesignName>congress_db</ownerDesignName>
+<engineerTo>
+<item key="BD5DF4A7-8351-68DC-F109-E363914DDD87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_state" id="75733B76-C543-CD02-B170-E94FCF3D9BE7">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:26:10 UTC</createdTime>
+<ownerDesignName>congress_db</ownerDesignName>
+<engineerTo>
+<item key="BD5DF4A7-8351-68DC-F109-E363914DDD87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="BBE01A49-D4D2-9F5E-89F3-EB2673C066D3">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:26:19 UTC</createdTime>
+<ownerDesignName>congress_db</ownerDesignName>
+<engineerTo>
+<item key="BD5DF4A7-8351-68DC-F109-E363914DDD87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="region" id="1C267B2D-C45C-48E4-BF58-A343359AF4EE">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:27:04 UTC</createdTime>
+<ownerDesignName>congress_db</ownerDesignName>
+<engineerTo>
+<item key="BD5DF4A7-8351-68DC-F109-E363914DDD87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07CC66EA-444B-7241-A1AD-4BCD9BC8211A" name="State PK">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:27:01 UTC</createdTime>
+<ownerDesignName>congress_db</ownerDesignName>
+<engineerTo>
+<item key="BD5DF4A7-8351-68DC-F109-E363914DDD87" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>75733B76-C543-CD02-B170-E94FCF3D9BE7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

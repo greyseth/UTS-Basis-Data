@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DEA296C7-08EB-AE3C-F44D-7730838D7D70" name="Reviewer">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 07:00:14 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="email_reviewer" id="EFA6A60A-7E2C-0B36-8F3D-49848C5FA4A6">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 07:00:19 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="7B46AF66-5DA3-9C93-23D2-1BFB90AFAA91">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 07:00:34 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="C8930D26-A474-9765-8A39-C87ECC5143C8">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 07:00:38 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone" id="537F398E-DECF-0A3B-4E6F-83F0D8742B00">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 07:00:45 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="interests" id="199DFAFC-7285-33B5-8589-B19E811F7842">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 07:00:56 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1647E98-F917-2C27-94B7-6E940246E2DA" name="Reviewer PK">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 07:00:28 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EFA6A60A-7E2C-0B36-8F3D-49848C5FA4A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="26D43F60-6C22-AFD7-F110-EFA36D647B90" name="Paper Review">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 07:02:07 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="technical_merit_score" id="A567655C-2CA4-3AE4-EFFF-C611897318D0">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 07:02:14 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<constraintName>score_constraint</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>10</endValue>
+<description>score limit</description>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="readability_score" id="6830CC44-92B3-6650-4300-244793943CD8">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 07:03:33 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<constraintName>score_constraint</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>10</endValue>
+<description>score limit</description>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="originality_score" id="A9ABE417-599F-4266-A593-F0C0B14FF937">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 07:03:56 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<constraintName>score_constraint</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>10</endValue>
+<description>score limit</description>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="relevance_score" id="80170F31-5B2B-EDFF-632D-365A882D14C8">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 07:04:25 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<constraintName>score_constraint</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>10</endValue>
+<description>score limit</description>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="recommendation" id="EA12124A-7026-F51E-CDAB-AEBE3157FCA0">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 07:05:01 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="commitee_comment" id="4F1AF530-76DE-BDA9-9CD2-5C039336D0BB">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 07:05:30 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author_comment" id="35DFF284-A40A-AAE8-DD65-4E165F49A647">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 07:05:37 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paper" id="DEF198C6-1364-2543-AB24-7B2F4DEBF004">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 07:05:57 UTC</createdTime>
+<generatorID>098C71BC-5D27-0654-816D-EE84C9DB1C42</generatorID>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<referedAttribute>99769434-80A3-ABFA-A340-4EA040F4AD91</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_reviewer" id="6650CCD3-9C1B-40A9-F164-A9EA598F3821">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 07:06:20 UTC</createdTime>
+<generatorID>A879E362-D2C4-72ED-FBFD-6664B02819AD</generatorID>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<referedAttribute>EFA6A60A-7E2C-0B36-8F3D-49848C5FA4A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B1EFD72-9965-AB56-4581-4ECB58A04984" name="Paper Review PK">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 07:05:57 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DEF198C6-1364-2543-AB24-7B2F4DEBF004</attributeRef>
+<attributeRef>6650CCD3-9C1B-40A9-F164-A9EA598F3821</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

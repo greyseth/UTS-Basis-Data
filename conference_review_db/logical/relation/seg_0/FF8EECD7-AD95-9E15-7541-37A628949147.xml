@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="author_paper_fk" directorySegmentName="seg_0" id="FF8EECD7-AD95-9E15-7541-37A628949147">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 06:59:39 UTC</createdTime>
+<ownerDesignName>conference_review_db</ownerDesignName>
+<engineerTo>
+<item key="2DFFCC6B-F9E6-8FBF-E435-6BBB1E9F13BD" value="true"/>
+</engineerTo>
+<sourcePk>7ABED258-0CBF-D7EB-6C42-427D02B3B6B7</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4EA09EB7-6C83-E85D-19C1-C647C35EF0BF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6270F6C8-A58A-602D-65A0-3011F97BF594</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

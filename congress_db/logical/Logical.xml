@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A1C1290A-B1DE-29EE-B236-A249B1ECF4E8" mainViewID="9D354B9B-6574-26A7-56D3-468C7EF1D5E3">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 04:29:59 UTC</createdTime>
+<ownerDesignName>congress_db</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

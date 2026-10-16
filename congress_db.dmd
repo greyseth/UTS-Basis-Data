@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="congress_db" id="A87990D2-1D7B-9AA2-0696-4A6D13D7188E" version="3.5">
+<createdBy>Gilland</createdBy>
+<createdTime>2026-10-16 04:29:59 UTC</createdTime>
+<ownerDesignName>congress_db</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A87990D2-1D7B-9AA2-0696-4A6D13D7188E</designId>
+</OSDM_Design>
